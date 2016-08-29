@@ -4,6 +4,9 @@
 
 - clean: ['~']
 
+- shell:
+    - [mkdir -p ~/bin, Creating local bin directory]
+
 - link:
     ~/.bash_aliases: bash/aliases
     ~/.bash_logout: bash/logout
@@ -16,6 +19,7 @@
     ~/.i3: i3
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/bin/autorandr: autorandr/autorandr
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
