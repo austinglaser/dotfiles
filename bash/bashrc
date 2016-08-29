@@ -2,6 +2,16 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Resolve actual bashrc script location (following any symlinks)
+# Credit: http://stackoverflow.com/a/246128/4138486
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -63,8 +73,8 @@ fi
 #fi
 #unset color_prompt force_color_prompt
 
-# Use austin's git colored prompt
-. ~/.git_svn_bash_prompt
+# Use liquidprompt
+. $DIR/liquidprompt/liquidprompt
 
 
 # If this is an xterm set the title to user@host:dir

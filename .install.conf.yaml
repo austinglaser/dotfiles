@@ -13,7 +13,6 @@
     ~/.bash_paths: bash/paths
     ~/.bash_profile: bash/profile
     ~/.bashrc: bash/bashrc
-    ~/.git_svn_bash_prompt: bash/git_svn_bash_prompt
     ~/.gitconfig: git/config
     ~/.gitignore_master: git/gitignore_master
     ~/.i3: i3
