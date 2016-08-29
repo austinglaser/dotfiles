@@ -9,6 +9,9 @@ Host svn1
 	Hostname svn.boulderes.com
 	Port 1091
 
+Host svn.boulderes.com
+	Port 1091
+
 Host mangoes2013.local
 	Port 2222
 
