@@ -5,6 +5,12 @@
 - clean: ['~']
 
 - link:
+    ~/.bash_aliases: bash/aliases
+    ~/.bash_logout: bash/logout
+    ~/.bash_paths: bash/paths
+    ~/.bash_profile: bash/profile
+    ~/.bashrc: bash/bashrc
+    ~/.git_svn_bash_prompt: bash/git_svn_bash_prompt
     ~/.vim: vim
     ~/.vimrc: vimrc
 
