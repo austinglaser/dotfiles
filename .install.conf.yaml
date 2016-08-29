@@ -6,6 +6,7 @@
 
 - shell:
     - [mkdir -p ~/bin, Creating local bin directory]
+    - [mkdir -p ~/.ssh, Creating local ssh directory]
 
 - link:
     ~/.bash_aliases: bash/aliases
@@ -19,6 +20,7 @@
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/bin/autorandr: autorandr/autorandr
+    ~/.ssh/config: ssh/config
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

@@ -1,0 +1,27 @@
+Host git.boulderes.com
+	Port 1091
+
+Host svn1
+	Hostname svn.boulderes.com
+	Port 1091
+
+Host mangoes2013.local
+	Port 2222
+
+Host mangoes2061.local
+	Port 2222
+
+Host deep-thought
+    Port 1091
+
+Host john-work
+    Hostname john.boulderes.com
+    Port 1776
+    ForwardAgent no
+    ForwardX11 no
+
+Host john-home
+    hostname lumenexus.org
+    Port 1778
+    ForwardAgent no
+    ForwardX11 no
