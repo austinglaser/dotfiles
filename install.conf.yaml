@@ -11,6 +11,7 @@
     ~/.bash_profile: bash/profile
     ~/.bashrc: bash/bashrc
     ~/.git_svn_bash_prompt: bash/git_svn_bash_prompt
+    ~/.i3: i3
     ~/.vim: vim
     ~/.vimrc: vimrc
 

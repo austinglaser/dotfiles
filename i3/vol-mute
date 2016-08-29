@@ -1,0 +1,6 @@
+#!/bin/bash
+SINK=`pactl list short sinks | grep 'RUNNING\|IDLE' | cut -f1`
+if [[ -z $SINK ]] ; then
+    SINK=1
+fi
+pactl set-sink-mute $SINK toggle
