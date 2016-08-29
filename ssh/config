@@ -1,7 +1,7 @@
 Host git.boulderes.com
 	Port 1091
 
-Host svn1
+Host deep-thought
 	Hostname svn.boulderes.com
 	Port 1091
 
