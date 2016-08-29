@@ -1,0 +1,4 @@
+# vim plugins sometimes don't have good gitignores, so they show as dirty. We
+# can ignore them because .vimrc + vundle will re-clone
+vim/bundle/*
+!vim/bundle/Vundle.vim
