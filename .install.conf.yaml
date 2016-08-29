@@ -20,6 +20,7 @@
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/bin/autorandr: autorandr/autorandr
+    ~/.autorandr: autorandr/config
     ~/.ssh/config: ssh/config
 
 - shell:
