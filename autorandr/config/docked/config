@@ -1,7 +1,7 @@
 output eDP1
 mode primary
-pos x
-rotate 1360x768+0+1080
+pos 0x1080
+mode 1360x768
 output DP1
 off
 output DP2
