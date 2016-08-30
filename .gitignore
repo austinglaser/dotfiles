@@ -2,3 +2,5 @@
 # can ignore them because .vimrc + vundle will re-clone
 vim/bundle/*
 !vim/bundle/Vundle.vim
+
+vim/.netrwhist
