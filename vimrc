@@ -18,6 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugins
 Plugin 'vim-scripts/Conque-GDB'
+Plugin 'vim-scripts/plantuml-syntax'
 Plugin 'git@github.com:vim-scripts/localrc.vim.git'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'aperezdc/vim-template'
@@ -123,6 +124,9 @@ inoremap <c-u> <esc>viwUi
 nnoremap <c-u> viwU
 
 " --- FILETYPES ------------------------------------------------------------ "
+
+"syntax highlight in plantuml files
+autocmd BufNewFile,BufReadPost *.uml,*.iuml setlocal filetype=plantuml
 
 "treat .ino and .pde files as .cpp (for arduino and zapuino)
 autocmd BufNewFile,BufReadPost *.ino,*.pde setlocal filetype=cpp
