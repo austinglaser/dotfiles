@@ -74,7 +74,7 @@ fi
 #unset color_prompt force_color_prompt
 
 # Use liquidprompt
-. $DIR/liquidprompt/liquidprompt
+[[ $- = *i* ]] && source $DIR/liquidprompt/liquidprompt
 
 
 # If this is an xterm set the title to user@host:dir
