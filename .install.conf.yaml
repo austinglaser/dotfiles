@@ -7,6 +7,7 @@
 - shell:
     - [mkdir -p ~/bin, Creating local bin directory]
     - [mkdir -p ~/.ssh, Creating local ssh directory]
+    - [mkdir -p ~/.config, Creating local config directory]
 
 - link:
     ~/.bash_aliases: bash/aliases
@@ -17,6 +18,7 @@
     ~/.gitconfig: git/config
     ~/.gitignore_master: git/gitignore_master
     ~/.i3: i3
+    ~/.config/liquidpromptrc: liquidpromptrc
     ~/.vim: vim
     ~/.ssh/config: ssh/config
 
