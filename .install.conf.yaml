@@ -21,6 +21,7 @@
     ~/.config/liquidpromptrc: liquidpromptrc
     ~/.vim: vim
     ~/.ssh/config: ssh/config
+    ~/bin/noblank: bin/noblank
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
