@@ -32,3 +32,8 @@ Host john-home
     Port 1778
     ForwardAgent no
     ForwardX11 no
+
+Host csci4113-kvm
+Host csci4113-a-kvm
+Host csci4113-b-kvm
+Host csci4113-c-kvm
