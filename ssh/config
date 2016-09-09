@@ -33,10 +33,10 @@ Host john-home
     ForwardAgent no
     ForwardX11 no
 
-Host csci4113-kvm
 Host csci4113-a-kvm
 Host csci4113-b-kvm
 Host csci4113-c-kvm
+Host csci4113-d-kvm
 
 Host csci4113-machinea
     Hostname 100.64.0.4
