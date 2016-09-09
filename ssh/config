@@ -37,3 +37,18 @@ Host csci4113-kvm
 Host csci4113-a-kvm
 Host csci4113-b-kvm
 Host csci4113-c-kvm
+
+Host csci4113-machinea
+    Hostname 100.64.0.4
+
+Host csci4113-machineb
+    Hostname 100.64.4.2
+
+Host csci4113-machinec
+    Hostname 100.64.4.3
+
+Host csci4113-machined
+    Hostname 100.64.4.4
+
+Host csci4113-machinee
+    Hostname 10.21.32.2
