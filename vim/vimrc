@@ -19,12 +19,12 @@ Plugin 'VundleVim/Vundle.vim'
 " plugins
 Plugin 'vim-scripts/Conque-GDB'
 Plugin 'vim-scripts/plantuml-syntax'
-Plugin 'git@github.com:vim-scripts/localrc.vim.git'
+Plugin 'vim-scripts/localrc.vim.git'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 Plugin 'aperezdc/vim-template'
 Plugin 'godlygeek/tabular'
-Plugin 'git@github.com:plasticboy/vim-markdown.git'
-Plugin 'git@github.com:altercation/vim-colors-solarized.git'
+Plugin 'plasticboy/vim-markdown.git'
+Plugin 'altercation/vim-colors-solarized.git'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.

@@ -14,3 +14,19 @@ alias vpn="/opt/cisco/anyconnect/bin/vpn"
 #Decide if we really like this
 alias make="make -j8"
 alias bd=". bd -si"
+
+#
+# setup ssh-agent
+# From http://mah.everybody.org/docs/ssh
+#
+
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+     echo "Initialising new SSH agent..."
+     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+     echo succeeded
+     chmod 600 "${SSH_ENV}"
+     . "${SSH_ENV}" > /dev/null
+}
+
